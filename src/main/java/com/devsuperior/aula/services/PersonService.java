@@ -17,7 +17,7 @@ public class PersonService {
     private PersonRepository repository;
 
     @Autowired
-    private DepartmentRepository  departmentRepository;
+    private DepartmentRepository departmentRepository;
 
     @Transactional
     public PersonDepartmentDTO insert(PersonDepartmentDTO dto) {

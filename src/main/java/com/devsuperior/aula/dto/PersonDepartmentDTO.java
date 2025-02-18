@@ -13,7 +13,6 @@ public class PersonDepartmentDTO {
    public PersonDepartmentDTO() {
    }
 
-
     public PersonDepartmentDTO(Long id, String name, Double salary, DepartmentDTO department) {
         this.id = id;
         this.name = name;
